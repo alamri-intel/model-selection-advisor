@@ -1,0 +1,10 @@
+{
+  "name": "model-selection-advisor",
+  "version": "3.0.0",
+  "description": "Recommends the cheapest model tier, effort level and cost technique that still clears the quality bar for a task, plus two Claude Code components that actually set them.",
+  "author": { "name": "Abdulrahman Al-Omari" },
+  "homepage": "https://github.com/alamri-intel/model-selection-advisor",
+  "repository": "https://github.com/alamri-intel/model-selection-advisor",
+  "license": "MIT",
+  "keywords": ["model-selection", "cost", "tokens", "routing", "effort"]
+}

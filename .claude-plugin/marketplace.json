@@ -1,0 +1,14 @@
+{
+  "name": "alamri-intel-plugins",
+  "owner": {
+    "name": "Abdulrahman Al-Omari"
+  },
+  "plugins": [
+    {
+      "name": "model-selection-advisor",
+      "source": "./",
+      "description": "Model tier / effort advisor plus cheap-mode and volume-worker for Claude Code."
+    }
+  ],
+  "description": "Plugins by Abdulrahman Al-Omari (@xabdul)."
+}
