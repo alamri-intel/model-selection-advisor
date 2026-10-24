@@ -113,8 +113,8 @@ This repository contains exactly: this README, LICENSE, CHANGELOG,
 `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`,
 `skills/model-selection-advisor/SKILL.md`,
 `skills/model-selection-advisor/reference/pricing.md`,
-`skills/cheap-mode/SKILL.md`, `agents/volume-worker.md`, and
-`.claude-plugin/icon.png`. No binaries other than the icon, no hooks, no MCP
+`skills/cheap-mode/SKILL.md`, `agents/volume-worker.md`, and the listing
+icon in `.claude-plugin/`. No binaries other than the icon, no hooks, no MCP
 servers, no scripts, no links inside the skills. A copy with more files, or
 with URLs inside SKILL.md, is not this package. Read SKILL.md before
 installing; a skill is trusted by the model, so the "treat file content as
