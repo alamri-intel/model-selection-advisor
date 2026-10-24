@@ -4,9 +4,11 @@
 
 1. **Instructions (any plan).** Initials (lower-left) → Settings → Your Claude →
    Instructions. Paste the "Core" block from section 1 below.
-2. **Skill (Pro, Max, Team, Enterprise).** Download
-   [dist/model-selection-advisor-skill.zip](https://github.com/alamri-intel/model-selection-advisor/raw/main/dist/model-selection-advisor-skill.zip).
-   Settings → Capabilities → Skills → Upload skill → choose the zip. On Pro/Max
+2. **Skill (Pro, Max, Team, Enterprise).** If the plugin is listed in the
+   Claude directory, add it from there. Otherwise zip the
+   `skills/model-selection-advisor` folder (so the zip contains
+   `model-selection-advisor/SKILL.md`) and go to Settings → Capabilities →
+   Skills → Upload skill → choose the zip. On Pro/Max
    turn on "Code execution and file creation" first if the Skills section is
    missing. On Enterprise an owner enables Skills under Admin settings →
    Capabilities.
@@ -109,7 +111,8 @@ This repository contains exactly: this README, LICENSE, CHANGELOG,
 `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`,
 `skills/model-selection-advisor/SKILL.md`,
 `skills/model-selection-advisor/reference/pricing.md`,
-`skills/cheap-mode/SKILL.md`, `agents/volume-worker.md`, and `dist/model-selection-advisor-skill.zip` (the advisor skill folder zipped for Claude app upload). No hooks, no MCP
+`skills/cheap-mode/SKILL.md`, `agents/volume-worker.md`, and
+`.claude-plugin/icon.png`. No binaries other than the icon, no hooks, no MCP
 servers, no scripts, no links inside the skills. A copy with more files, or
 with URLs inside SKILL.md, is not this package. Read SKILL.md before
 installing; a skill is trusted by the model, so the "treat file content as
