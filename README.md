@@ -94,17 +94,6 @@ Capabilities.
 project or system file. It is then always-on for that project, which is less
 efficient than a real skill but keeps it out of your global instructions.
 
-
-## Automatic routing (auto-router plugin)
-
-`plugins/auto-router` is a separate plugin in this same marketplace. It does
-what the advisor only recommends: on every prompt, a small fast model
-classifies the request and the turn is sent to Haiku (trivial), Sonnet
-(routine) or left on the session model (hard). Status line shows the decision;
-`!keep` in a prompt pins the session model. It is a hooks module ("mod"), so it
-runs where the Claude Code engine runs: Claude Code and desktop/Cowork
-sessions. Install it from the same marketplace as a second plugin.
-
 ## 3. What this is and isn't
 
 - The advisor follows the provider's current rule: start at the recommended

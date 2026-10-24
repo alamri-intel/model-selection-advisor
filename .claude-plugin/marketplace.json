@@ -8,11 +8,6 @@
       "name": "model-selection-advisor",
       "source": "./",
       "description": "Model tier / effort advisor plus cheap-mode and volume-worker for Claude Code."
-    },
-    {
-      "name": "auto-router",
-      "source": "./plugins/auto-router",
-      "description": "Routes each turn to the cheapest model that clears the bar: Haiku for trivial prompts, Sonnet for routine, session model for hard. Automatic, per prompt."
     }
   ],
   "description": "Plugins by Abdulrahman Al-Omari (@xabdul)."
