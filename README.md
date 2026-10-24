@@ -1,5 +1,23 @@
 # Model Selection Advisor
 
+## Claude app quick start (2 minutes)
+
+1. **Instructions (any plan).** Initials (lower-left) → Settings → Your Claude →
+   Instructions. Paste the "Core" block from section 1 below.
+2. **Skill (Pro, Max, Team, Enterprise).** Download
+   [dist/model-selection-advisor-skill.zip](https://github.com/alamri-intel/model-selection-advisor/raw/main/dist/model-selection-advisor-skill.zip).
+   Settings → Capabilities → Skills → Upload skill → choose the zip. On Pro/Max
+   turn on "Code execution and file creation" first if the Skills section is
+   missing. On Enterprise an owner enables Skills under Admin settings →
+   Capabilities.
+3. **Check it.** Start a new chat and ask: "which model and effort for
+   summarizing 300 PDFs through the API?" — the skill should answer in three
+   lines. Then ask it to translate a sentence; it should stay silent about
+   models.
+
+The skill recommends; you still change the model selector and the effort
+dial yourself.
+
 Three small parts:
 
 | Part | What it does | Where it works |
