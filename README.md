@@ -82,9 +82,11 @@ or without a marketplace: `claude --plugin-dir ./model-selection-advisor`, or
 copy `skills/model-selection-advisor/` into `~/.claude/skills/`.
 
 **Claude app** (Pro, Max, Team, Enterprise): Settings → Capabilities → Skills
-→ Upload skill. Upload `dist/model-selection-advisor-skill.zip` (direct download: https://github.com/alamri-intel/model-selection-advisor/raw/main/dist/model-selection-advisor-skill.zip)
-(it contains only the advisor skill folder; `cheap-mode` and the subagent use
-frontmatter keys the app rejects). On Pro/Max, enable "Code execution and file
+→ Upload skill. If the plugin is in the Claude directory, add it from there
+instead. For a manual upload, zip the `skills/model-selection-advisor` folder
+so the zip contains `model-selection-advisor/SKILL.md` and upload that
+(`cheap-mode` and the subagent use frontmatter keys the app upload rejects,
+so upload the advisor folder only). On Pro/Max, enable "Code execution and file
 creation" first; on Enterprise an owner enables Skills under Admin settings →
 Capabilities.
 
